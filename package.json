@@ -1,0 +1,27 @@
+{
+  "name": "randomise-me",
+  "version": "1.0.0",
+  "description": "Get random stuff for your projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzAshu397/Randomise-Me.git"
+  },
+  "keywords": [
+    "randomise-me",
+    "random",
+    "randomise"
+  ],
+  "author": "Ashutosh Swamy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItzAshu397/Randomise-Me/issues"
+  },
+  "homepage": "https://github.com/ItzAshu397/Randomise-Me#readme",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
