@@ -17,7 +17,8 @@ function generateDogImage() {
   axios
     .get(url)
     .then((res) => {
-      return res.data.image;
+      let image = res.data.image;
+      return image;
     })
     .catch((err) => {
       return new TypeError(err);
@@ -30,7 +31,8 @@ function generateCatImage() {
   axios
     .get(url)
     .then((res) => {
-      return res.data.image;
+      let image = res.data.image;
+      return image;
     })
     .catch((err) => {
       return new TypeError(err);
@@ -43,7 +45,8 @@ function generateDogFact() {
   axios
     .get(url)
     .then((res) => {
-      return res.data.fact;
+      let fact = res.data.fact;
+      return fact;
     })
     .catch((err) => {
       return new TypeError(err);
@@ -56,7 +59,8 @@ function generateCatFact() {
   axios
     .get(url)
     .then((res) => {
-      return res.data.fact;
+      let fact = res.data.fact;
+      return fact;
     })
     .catch((err) => {
       return new TypeError(err);
