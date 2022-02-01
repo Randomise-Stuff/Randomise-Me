@@ -5,6 +5,7 @@ randomise-me is a NPM package which helps you in getting random stuff for your p
 # How to install this package?
 
 ```sh
+npm i axios
 npm i randomise-me
 ```
 
