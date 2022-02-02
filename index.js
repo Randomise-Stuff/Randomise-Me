@@ -1,5 +1,3 @@
-const axios = require("axios");
-
 function generateRandomColor() {
   let color = "#";
   let codes = "0123456789ABCDEF";
@@ -11,66 +9,87 @@ function generateRandomColor() {
   return color;
 }
 
-function generateDogImage() {
-  let url = "https://some-random-api.ml/animal/dog";
+function generateRandomFirstName() {
+  let firstNames = [
+    "John",
+    "Ram",
+    "Smith",
+    "Steven",
+    "Steve",
+    "Larry",
+    "Bailee",
+    "Gauge",
+    "Madison",
+    "Karl",
+    "Carl",
+    "Jimmy",
+    "Chandler",
+    "Johnny",
+    "Marcus",
+    "David",
+    "Ashutosh",
+    "Alesh",
+    "Chris",
+    "Vivan",
+    "Richard",
+    "Issac",
+    "Jacob",
+    "Dominic",
+    "Susan",
+    "Natasha",
+    "Rohan",
+    "Pratibha",
+    "Atharva",
+    "Alex",
+    "Alexander",
+    "Billy",
+    "Hope",
+    "Tony",
+    "Howard",
+    "Peter",
+    "George",
+    "Ricky",
+  ];
+  let firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
 
-  axios
-    .get(url)
-    .then((res) => {
-      let image = res.data.image;
-      return image;
-    })
-    .catch((err) => {
-      return new TypeError(err);
-    });
+  return firstName;
 }
 
-function generateCatImage() {
-  let url = "https://some-random-api.ml/animal/cat";
+function generateRandomLastName() {
+  let lastNames = [
+    "Evans",
+    "Potts",
+    "Stark",
+    "Bailey",
+    "Dukes",
+    "Stoinis",
+    "Warner",
+    "Chapman",
+    "Lyon",
+    "Wong",
+    "Strange",
+    "Parker",
+    "Holland",
+    "Wikkins",
+    "Faulkner",
+    "Henricks",
+    "Brown",
+    "Khan",
+    "Swamy",
+    "Swami",
+    "Lang",
+    "Thomas",
+    "Williomson",
+    "Boult",
+    "Carey",
+  ];
+  let lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
 
-  axios
-    .get(url)
-    .then((res) => {
-      let image = res.data.image;
-      return image;
-    })
-    .catch((err) => {
-      return new TypeError(err);
-    });
-}
-
-function generateDogFact() {
-  let url = "https://some-random-api.ml/animal/dog";
-
-  axios
-    .get(url)
-    .then((res) => {
-      let fact = res.data.fact;
-      return fact;
-    })
-    .catch((err) => {
-      return new TypeError(err);
-    });
-}
-
-function generateCatFact() {
-  let url = "https://some-random-api.ml/animal/cat";
-
-  axios
-    .get(url)
-    .then((res) => {
-      let fact = res.data.fact;
-      return fact;
-    })
-    .catch((err) => {
-      return new TypeError(err);
-    });
+  return lastName;
 }
 
 module.exports = {
   generateRandomColor,
-  generateDogImage,
-  generateCatImage,
-  generateDogFact,
-  generateCatFact,
+  generateRandomFirstName,
+  generateRandomLastName,
 };

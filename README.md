@@ -9,13 +9,12 @@ npm i axios
 npm i randomise-me
 ```
 
-# Features
+# Changes Made
 
-- `generateRandomColor()` - Generates random Hex Color Codes
-- `generateDogImage()` - Gets a random Dog Image
-- `generateCatImage()` - Gets a random Cat Image
-- `generateDogFact()` - Gets a random Dog Fact
-- `generateCatFact()` - Gets a random Cat Fact
+- Removed `generateDogImage()` function
+- Removed `generateCatImage()` function
+- Removed `generateDogFact()` function
+- Removed `generateCatFact()` function
 
 # Examples
 
@@ -27,34 +26,18 @@ const random = require("randomise-me");
 console.log(random.generateRandomColor()); //returns random Hex Color Code
 ```
 
-.generateDogImage()
+.generateRandomFirstName()
 
 ```js
 const random = require("randomise-me");
 
-console.log(random.generateDogImage()); //returns URL of a random dog image
+console.log(random.generateRandomFirstName()); //returns a random first name
 ```
 
-.generateCatImage()
+.generateRandomLastName()
 
 ```js
 const random = require("randomise-me");
 
-console.log(random.generateCatImage()); //returns URL of a random cat image
-```
-
-.generateDogFact()
-
-```js
-const random = require("randomise-me");
-
-console.log(random.generateDogFact()); //returns URL of a random dog fact
-```
-
-.generateCatFact()
-
-```js
-const random = require("randomise-me");
-
-console.log(random.generateCatFact()); //returns URL of a random cat fact
+console.log(random.generateRandomLastName()); //returns a random last name
 ```
