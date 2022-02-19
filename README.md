@@ -12,11 +12,11 @@ npm i randomise-me
 # How to get output?
 
 - Write any one code from the below examples
-- Then open your terminal and run your `js` file
+- Then open your terminal and run your `.js` file
 
 # Changes Made
 
-- Updated all the functions which existed in v1.0.2
+- Updated all the functions which existed in `v1.0.2`
 - Changed names of all the functions which existed in `v1.0.2`
 - Added `randomDogImage()` function
 - Added `randomCatImage()` function
