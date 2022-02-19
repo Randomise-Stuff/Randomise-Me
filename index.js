@@ -1,4 +1,16 @@
-function generateRandomColor() {
+const axios = require("axios");
+
+const dogUrl = "https://some-random-api.ml/animal/dog";
+const catUrl = "https://some-random-api.ml/animal/cat";
+const foxUrl = "https://some-random-api.ml/animal/fox";
+const pandaUrl = "https://some-random-api.ml/animal/panda";
+const redPandaUrl = "https://some-random-api.ml/animal/red_panda";
+const koalaUrl = "https://some-random-api.ml/animal/koala";
+const raccoonUrl = "https://some-random-api.ml/animal/raccoon";
+const kangarooUrl = "https://some-random-api.ml/animal/kangaroo";
+const birdUrl = "https://some-random-api.ml/animal/bird";
+
+function randomColor() {
   let color = "#";
   let codes = "0123456789ABCDEF";
 
@@ -6,10 +18,10 @@ function generateRandomColor() {
     color += codes[Math.floor(Math.random() * 16)];
   }
 
-  return color;
+  console.log(color);
 }
 
-function generateRandomFirstName() {
+function randomFirstName() {
   let firstNames = [
     "John",
     "Ram",
@@ -52,10 +64,10 @@ function generateRandomFirstName() {
   ];
   let firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
 
-  return firstName;
+  console.log(firstName);
 }
 
-function generateRandomLastName() {
+function randomLastName() {
   let lastNames = [
     "Evans",
     "Potts",
@@ -85,11 +97,119 @@ function generateRandomLastName() {
   ];
   let lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
 
-  return lastName;
+  console.log(lastName);
+}
+
+function randomDogImage() {
+  axios.default
+    .get(dogUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomCatImage() {
+  axios.default
+    .get(catUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomFoxImage() {
+  axios.default
+    .get(foxUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomPandaImage() {
+  axios.default
+    .get(pandaUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomRedPandaImage() {
+  axios.default
+    .get(redPandaUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomKoalaImage() {
+  axios.default
+    .get(koalaUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomRaccoonImage() {
+  axios.default
+    .get(raccoonUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomKangarooImage() {
+  axios.default
+    .get(kangarooUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomBirdImage() {
+  axios.default
+    .get(birdUrl)
+    .then((res) => {
+      console.log(res.data.image);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
 }
 
 module.exports = {
-  generateRandomColor,
-  generateRandomFirstName,
-  generateRandomLastName,
+  randomColor,
+  randomFirstName,
+  randomLastName,
+  randomDogImage,
+  randomCatImage,
+  randomFoxImage,
+  randomPandaImage,
+  randomRedPandaImage,
+  randomKoalaImage,
+  randomRaccoonImage,
+  randomKangarooImage,
+  randomBirdImage,
 };

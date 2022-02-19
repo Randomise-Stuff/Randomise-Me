@@ -9,35 +9,119 @@ npm i axios
 npm i randomise-me
 ```
 
+# How to get output?
+
+- Write any one code from the below examples
+- Then open your terminal and run your `js` file
+
 # Changes Made
 
-- Removed `generateDogImage()` function
-- Removed `generateCatImage()` function
-- Removed `generateDogFact()` function
-- Removed `generateCatFact()` function
+- Updated all the functions which existed in v1.0.2
+- Changed names of all the functions which existed in `v1.0.2`
+- Added `randomDogImage()` function
+- Added `randomCatImage()` function
+- Added `randomFoxImage()` function
+- Added `randomPandaImage()` function
+- Added `randomRedPandaImage()` function
+- Added `randomKoalaImage()` function
+- Added `randomRaccoonImage()` function
+- Added `randomKangarooImage()` function
+- Added `randomBirdImage()` function
 
 # Examples
 
-.generateRandomColor()
+.randomColor()
 
 ```js
 const random = require("randomise-me");
 
-console.log(random.generateRandomColor()); //returns random Hex Color Code
+random.randomColor(); //returns random Hex Color Code
 ```
 
-.generateRandomFirstName()
+.randomFirstName()
 
 ```js
 const random = require("randomise-me");
 
-console.log(random.generateRandomFirstName()); //returns a random first name
+random.randomFirstName(); //returns a random first name
 ```
 
-.generateRandomLastName()
+.randomLastName()
 
 ```js
 const random = require("randomise-me");
 
-console.log(random.generateRandomLastName()); //returns a random last name
+random.randomLastName(); //returns a random last name
+```
+
+.randomDogImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomDogImage(); //returns a random dog image url
+```
+
+.randomCatImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomCatImage(); //returns a random cat image url
+```
+
+.randomFoxImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomFoxImage(); //returns a random fox image url
+```
+
+.randomPandaImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomPandaImage(); //returns a random panda image url
+```
+
+.randomRedPandaImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomRedPandaImage(); //returns a random redpanda image url
+```
+
+.randomKoalaImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomKoalaImage(); //returns a random koala image url
+```
+
+.randomRaccoonImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomRaccoonImage(); //returns a random raccoon image url
+```
+
+.randomKangarooImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomKangarooImage(); //returns a random kangaroo image url
+```
+
+.randomBirdImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomBirdImage(); //returns a random bird image url
 ```

@@ -1,6 +1,6 @@
 {
   "name": "randomise-me",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get random stuff for your projects",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ItzAshu397/Randomise-Me/issues"
   },
-  "homepage": "https://github.com/ItzAshu397/Randomise-Me#readme"
+  "homepage": "https://github.com/ItzAshu397/Randomise-Me#readme",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
 }
