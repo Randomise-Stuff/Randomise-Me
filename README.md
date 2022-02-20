@@ -16,17 +16,15 @@ npm i randomise-me
 
 # Changes Made
 
-- Updated all the functions which existed in `v1.0.2`
-- Changed names of all the functions which existed in `v1.0.2`
-- Added `randomDogImage()` function
-- Added `randomCatImage()` function
-- Added `randomFoxImage()` function
-- Added `randomPandaImage()` function
-- Added `randomRedPandaImage()` function
-- Added `randomKoalaImage()` function
-- Added `randomRaccoonImage()` function
-- Added `randomKangarooImage()` function
-- Added `randomBirdImage()` function
+- Added `randomDogFact()` function
+- Added `randomCatFact()` function
+- Added `randomFoxFact()` function
+- Added `randomPandaFact()` function
+- Added `randomRedPandaFact()` function
+- Added `randomKoalaFact()` function
+- Added `randomRaccoonFact()` function
+- Added `randomKangarooFact()` function
+- Added `randomBirdFact()` function
 
 # Examples
 
@@ -124,4 +122,76 @@ random.randomKangarooImage(); //returns a random kangaroo image url
 const random = require("randomise-me");
 
 random.randomBirdImage(); //returns a random bird image url
+```
+
+.randomDogFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomDogFact(); //returns a random dog fact
+```
+
+.randomCatFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomCatFact(); //returns a random cat fact
+```
+
+.randomFoxFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomFoxFact(); //returns a random fox fact
+```
+
+.randomPandaFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomPandaFact(); //returns a random panda fact
+```
+
+.randomRedPandaFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomRedPandaFact(); //returns a random redpanda fact
+```
+
+.randomKoalaFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomKoalaFact(); //returns a random koala fact
+```
+
+.randomRaccoonFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomRaccoonFact(); //returns a random raccoon fact
+```
+
+.randomKangarooFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomKangarooFact(); //returns a random kangaroo fact
+```
+
+.randomBirdFact()
+
+```js
+const random = require("randomise-me");
+
+random.randomBirdFact(); //returns a random bird fact
 ```

@@ -199,6 +199,105 @@ function randomBirdImage() {
     });
 }
 
+function randomDogFact() {
+  axios.default
+    .get(dogUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomCatFact() {
+  axios.default
+    .get(catUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomFoxFact() {
+  axios.default
+    .get(foxUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomPandaFact() {
+  axios.default
+    .get(pandaUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomRedPandaFact() {
+  axios.default
+    .get(redPandaUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomKoalaFact() {
+  axios.default
+    .get(koalaUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomRaccoonFact() {
+  axios.default
+    .get(raccoonUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomKangarooFact() {
+  axios.default
+    .get(kangarooUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+function randomBirdFact() {
+  axios.default
+    .get(birdUrl)
+    .then((res) => {
+      console.log(res.data.fact);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
 module.exports = {
   randomColor,
   randomFirstName,
@@ -212,4 +311,13 @@ module.exports = {
   randomRaccoonImage,
   randomKangarooImage,
   randomBirdImage,
+  randomDogFact,
+  randomCatFact,
+  randomFoxFact,
+  randomPandaFact,
+  randomRedPandaFact,
+  randomKoalaFact,
+  randomRaccoonFact,
+  randomKangarooFact,
+  randomBirdFact,
 };
