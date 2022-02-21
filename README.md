@@ -1,3 +1,17 @@
+<div align="center">
+  <br />
+  <p>
+    <a href="https://www.npmjs.com/package/randomise-me"><img src="https://imgur.com/VSiZ5hr.png" width="546" alt="randomise-me" /></a>
+  </p>
+  <br />
+  <p>
+    <a href="https://www.npmjs.com/package/randomise-me"><img src="https://img.shields.io/npm/v/randomise-me?color=red&style=for-the-badge" alt="npm version" /></a>
+    <a href="https://github.com/ItzAshu397/Randomise-Me"><img src="https://img.shields.io/github/languages/code-size/ItzAshu397/Randomise-Me?style=for-the-badge" alt="code size" /></a>
+    <a href="https://patreon.com/ashutoshswamy"><img src="https://img.shields.io/badge/Patreon-Donate%20Us-orange?style=for-the-badge" alt="code size" /></a>
+    <a href="https://www.instagram.com/itzashu397/"><img alt="instagram" title="Instagram" src="https://img.shields.io/badge/-ItzAshu397's%20Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  </p>
+</div>
+
 # Randomise Me
 
 randomise-me is a NPM package which helps you in getting random stuff for your projects.
