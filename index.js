@@ -9,6 +9,7 @@ const koalaUrl = "https://some-random-api.ml/animal/koala";
 const raccoonUrl = "https://some-random-api.ml/animal/raccoon";
 const kangarooUrl = "https://some-random-api.ml/animal/kangaroo";
 const birdUrl = "https://some-random-api.ml/animal/bird";
+const duckUrl = "https://random-d.uk/api/random";
 
 function randomColor() {
   let color = "#";
@@ -199,6 +200,17 @@ function randomBirdImage() {
     });
 }
 
+function randomDuckImage() {
+  axios.default
+    .get(duckUrl)
+    .then((res) => {
+      console.log(res.data.url);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
 function randomDogFact() {
   axios.default
     .get(dogUrl)
@@ -311,6 +323,7 @@ module.exports = {
   randomRaccoonImage,
   randomKangarooImage,
   randomBirdImage,
+  randomDuckImage,
   randomDogFact,
   randomCatFact,
   randomFoxFact,

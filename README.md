@@ -30,15 +30,7 @@ npm i randomise-me
 
 # Changes Made
 
-- Added `randomDogFact()` function
-- Added `randomCatFact()` function
-- Added `randomFoxFact()` function
-- Added `randomPandaFact()` function
-- Added `randomRedPandaFact()` function
-- Added `randomKoalaFact()` function
-- Added `randomRaccoonFact()` function
-- Added `randomKangarooFact()` function
-- Added `randomBirdFact()` function
+- Added `randomDuckImage()` function
 
 # Examples
 
@@ -138,6 +130,14 @@ const random = require("randomise-me");
 random.randomBirdImage(); //returns a random bird image url
 ```
 
+.randomDuckImage()
+
+```js
+const random = require("randomise-me");
+
+random.randomDuckImage(); //returns a random duck image url
+```
+
 .randomDogFact()
 
 ```js
@@ -209,3 +209,7 @@ const random = require("randomise-me");
 
 random.randomBirdFact(); //returns a random bird fact
 ```
+
+# Donate us so we can Improve
+
+- Patreon - [Click Here](https://patreon.com/ashutoshswamy)
